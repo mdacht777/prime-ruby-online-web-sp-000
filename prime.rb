@@ -1,5 +1,6 @@
 # Add  code here!
 def prime?(num)
+   puts num<1
    return false if num<1
    Math.sqrt(num).floor.downto(2).each {|i| 
    return false if num % i == 0
